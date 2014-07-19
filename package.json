@@ -1,7 +1,7 @@
 {
   "name": "grunt-pubsubhubbub_publish",
   "version": "0.1.0",
-  "description": "Publish a feed updates to Google PubSubHubbub hub.",
+  "description": "Publish a feed updates to a PubSubHubbub hub.",
   "repository": {
     "type": "git",
     "url": "https://github.com/hail2u/grunt-pubsubhubbub_publish.git"
