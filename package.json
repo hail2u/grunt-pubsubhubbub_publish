@@ -1,6 +1,6 @@
 {
   "name": "grunt-pubsubhubbub_publish",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Publish a feed updates to a PubSubHubbub hub.",
   "repository": {
     "type": "git",
