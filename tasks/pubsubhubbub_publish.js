@@ -28,7 +28,7 @@ module.exports = function (grunt) {
         return done(new Error('Hub returned ' + response.statusCode + '.'));
       }
 
-      grunt.log.writeln('Feed "' + hubUrl + '" published.');
+      grunt.verbose.log.writeln('Feed "' + hubUrl + '" published.');
       done();
     });
   });
