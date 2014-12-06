@@ -1,24 +1,24 @@
 {
   "name": "grunt-pubsubhubbub_publish",
-  "version": "0.2.1",
   "description": "Publish a feed updates to a PubSubHubbub hub.",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/hail2u/grunt-pubsubhubbub_publish.git"
+  "version": "0.2.1",
+  "author": "Kyo Nagashima <kyo@hail2u.net> (http://hail2u.net/)",
+  "bugs": {
+    "url": "https://github.com/hail2u/grunt-pubsubhubbub_publish/issues"
   },
+  "dependencies": {
+    "request": "^2.36.0"
+  },
+  "homepage": "https://github.com/hail2u/grunt-pubsubhubbub_publish",
   "keywords": [
     "gruntplugin",
     "pubsubhubbub",
     "feed",
     "rss"
   ],
-  "author": "Kyo Nagashima <kyo@hail2u.net> (http://hail2u.net/)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/hail2u/grunt-pubsubhubbub_publish/issues"
-  },
-  "homepage": "https://github.com/hail2u/grunt-pubsubhubbub_publish",
-  "dependencies": {
-    "request": "^2.36.0"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hail2u/grunt-pubsubhubbub_publish.git"
   }
 }
