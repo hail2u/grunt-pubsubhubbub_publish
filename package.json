@@ -2,7 +2,7 @@
   "name": "grunt-pubsubhubbub_publish",
   "description": "Publish a feed updates to a PubSubHubbub hub.",
   "version": "0.2.1",
-  "author": "Kyo Nagashima <kyo@hail2u.net> (http://hail2u.net/)",
+  "author": "Kyo Nagashima <hail2u@gmail.com> (https://kyonagashima.com/)",
   "bugs": {
     "url": "https://github.com/hail2u/grunt-pubsubhubbub_publish/issues"
   },
