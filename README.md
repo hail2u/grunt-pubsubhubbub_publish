@@ -37,9 +37,19 @@ Optional. URL points to PubSubHubbub hub.
 
 ### hubUrl
 
-Default: `undefined`
+Default: `homepage` field value in your `package.json` suffixed `feed`
 
-Required. URL of your feed.
+Optional. URL of your feed.
+
+If:
+
+- You don’t specify this option
+- Your `package.json` has `homepage` field
+- Its value is `https://example.com`
+
+this task guesses `hubUrl`:
+
+    https://example.com/feed
 
 
 LICENSE

@@ -5,13 +5,23 @@ module.exports = function (grunt) {
   var taskDescription = "Publish a feed updates to a PubSubHubbub hub.";
 
   grunt.registerMultiTask(taskName, taskDescription, function () {
+    var path = require("path");
     var request = require("request");
 
     var done = this.async();
+    var pkg = require(path.join(process.cwd(), "package.json"));
+    var hubUrl = "";
     var options = this.options({
       hub: "https://pubsubhubbub.appspot.com/"
     });
-    var hubUrl = this.data.hubUrl;
+
+    if (pkg.homepage) {
+      hubUrl = pkg.homepage + "feed";
+    }
+
+    if (this.data.hubUrl) {
+      hubUrl = this.data.hubUrl;
+    }
 
     request.post(options.hub, {
       form: {
