@@ -18,20 +18,20 @@ CONFIGURE
         pubsubhubbub_publish: {
           main: {
             options: {
-              hub: 'http://example.org/hub'
+              hub: "http://example.org/hub"
             },
 
-            hubUrl: 'http://example.com/feed'
+            hubUrl: "http://example.com/feed"
           }
         }
       });
     };
-    grunt.loadNpmTasks('grunt-pubsubhubbub_publish');
+    grunt.loadNpmTasks("grunt-pubsubhubbub_publish");
 
 
 ### options.hub
 
-Default: `'https://pubsubhubbub.appspot.com/'`
+Default: `https://pubsubhubbub.appspot.com/`
 
 Optional. URL points to PubSubHubbub hub.
 
