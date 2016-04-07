@@ -17,6 +17,7 @@
     "rss"
   ],
   "license": "MIT",
+  "main": "tasks/pubsubhubbub_publish.js",
   "peerDependencies": {
     "grunt": ">=0.4.0"
   },
